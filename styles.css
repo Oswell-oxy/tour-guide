@@ -1,0 +1,137 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url(images/nt.jpg);
+    background-size: cover;
+    height: 700px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 100px;
+    padding: 10px 20px;
+    margin: 340px 0px 0px 0px;
+    color: white;
+    text-shadow: 5px 5px 8px black;
+}
+
+h3 {
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.tour-guide {
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px auto
+}
+
+.canoe1{
+    width: auto;
+    height: 160px;
+}
+
+ #canoe {
+     border: 2px solid gray;
+     border-radius: 20px;
+     padding: 10px
+ }
+ 
+ .canoe_hero {
+     background-color: green;
+     color: white;
+     text-shadow: 2px 2px 5px black;
+     font-size: 25px;
+     font-weight: bold;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+.food1{
+    width: auto;
+    height: 160px;
+}
+ 
+ #food {
+     border: 2px solid gray;
+     border-radius: 20px;
+     padding: 10px
+ }
+ 
+ .food_hero {
+     background-color: green;
+     color: white;
+     text-shadow: 2px 2px 5px black;
+     font-size: 25px;
+     font-weight: bold;
+     font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .beach1{
+    width: auto;
+    height: 160px;
+}
+ 
+ #beach {
+     border: 2px solid gray;
+     border-radius: 20px;
+     padding: 10px
+ }
+ 
+ .beach_hero {
+     background-color: green;
+     color: white;
+     text-shadow: 2px 2px 5px black;
+     font-size: 25px;
+     font-weight: bold;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+.dp {
+    width: auto;
+    border: none;
+    border-radius: 300px;
+}
+
+.footer {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
